@@ -64,7 +64,7 @@ Removed:
 <u><style="Title">Update 0.0.8:</style></u>
 + New level selection screen
 + News tab
-+ Tardis
++ Tardis background image
 + Zombie AI
 + Weapon Sway
 + Explosion particles
