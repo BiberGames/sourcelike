@@ -1,0 +1,80 @@
+This is the News tab!!!
+
+<u><style="Title">Update 0.1.1:(WIP)</style></u>
+Added:
+  + build in Gameboy emulator
+  + teleport / setpos / tp command
+  + Rickroll
+  + rebalanced damage and health to be more like Half life 2
+  + 2D Minecraft in Mini Games section 
+  + Space Invaders in Mini Games section 
+  + Mini Games tab in map select screen
+  + Button to the Sourcelike Discord
+  + 8 New Splash text
+  + Loading GLTF maps from mainmenu
+  + GLTF map loader
+
+Removed:
+
+<u><style="Title">Update 0.1.0:</style></u>
+Added:
+  + 1 New Splash text
+  + Reactive view models (move slightly in opposite direction currently moving)
+  + Time based Splash texts (Happy new year, merry xmas...)
+  + Left View models (to toggle cl_draw_viewmodel_side 1 (left) or 0 (right, normal)
+  + Current screen resolution in the Debug Screen
+  + Screenshots (F2 to take one)
+  + Ganades ammo counter
+  + Added Weapon inspect animations
+  + Added Reloading
+  + Added Gauss Gun (Tau cannon)
+  + 3rd person mode (F5 key to toggle)
+  + Splash text is now stored in an external file
+  + Impact sounds (Wood, Flesh, Concrete, Wood, Metal)
+  + 3 New Backgrounds
+  + Basic Lua scripting (THX TO MOONSHARP!!!)
+    + Main menu background music generator moved to a lua script
+    + Main menu background moving images / flash moved to lua from c#
+    + GLTF Importer
+  + Error messages when error occurs
+  + Console
+
+Removed:
+  - Rounded Corners
+
+<u><style="Title">Update 0.0.9:</style></u>
+Added:
+  + Updated Pause menu to look like Main menu
+  + F-Stop Camera (Left click to photograph object, e to change slot and right click to place, arrowkeys to scale)
+  + Bigger Lake
+  + The flash in the Main menu is now dark when image changes
+  + Rich Text Support for the news Tab
+  + Random Half Life 2 Song as Background Music in Main Menu
+  + New main menu (gta 4 style)
+  + Updated Sandbox Flat Map
+  + Mouse wheel to change weapons
+  + Car / Buggy
+  + KM/H Display
+  + Freecam (Tab key to toggel)
+  + Debug Screen (F3 key to toggel)
+  
+Removed:
+  - Physgun
+
+<u><style="Title">Update 0.0.8:</style></u>
++ New level selection screen
++ News tab
++ Tardis
++ Zombie AI
++ Weapon Sway
++ Explosion particles
+
+<u><style="Title">Old Versions:</style></u>
+
+<u><style="Title">Update 0.0.7:</style></u>
+
+<u><style="Title">Update 0.0.6:</style></u>
+
+<u><style="Title">Update 0.0.5:</style></u>
+
+<u><style="Title">Update 0.0.4:</style></u>
