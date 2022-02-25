@@ -2,6 +2,8 @@ This is the News tab!!!
 
 <u><style="Title">Update 0.1.1:(WIP)</style></u>
 Added:
+  + Custom mouse cursor
+  + New Background
   + build in Gameboy emulator
   + teleport / setpos / tp command
   + Rickroll
