@@ -2,13 +2,14 @@ This is the News tab!!!
 
 <u><style="Title">Update 0.1.1:(WIP)</style></u>
 Added:
+  + In game script editor
   + In game file browser
   + Custom mouse cursor
   + New Background
   + build in Gameboy emulator
   + teleport / setpos / tp command
   + Rickroll
-  + rebalanced damage and health to be more like Half life 2
+  + rebalanced damage and health to be more like Half-life 2
   + 2D Minecraft in Mini Games section 
   + Space Invaders in Mini Games section 
   + Mini Games tab in map select screen
