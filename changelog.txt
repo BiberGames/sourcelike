@@ -7,7 +7,7 @@ Added:
   + In game script editor
   + In game file browser
   + Custom mouse cursor
-  + 2 new Backgrounds
+  + 3 new Backgrounds
   + build in Gameboy emulator
   + teleport / setpos / tp command
   + Rickroll
