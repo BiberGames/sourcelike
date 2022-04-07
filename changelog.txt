@@ -3,6 +3,7 @@ This is the News tab!!!
 <u><style="Title">Update 0.1.1:(WIP)</style></u>
 Added:
   + lua api rewrite / rework
+  + updated console font (Ubuntu mono) / text alignment
   + In game model viewer
   + Dev menu / mode button in main menu
   + In game script editor
