@@ -2,18 +2,19 @@ This is the News tab!!!
 
 <u><style="Title">Update 0.1.1:(WIP)</style></u>
 Added:
-  + lua api rewrite / rework
-  + updated console font (Ubuntu mono) / text alignment
+  + Gameboy background instead of green color
+  + Lua api rewrite / rework
+  + Updated console font (Ubuntu mono) / text alignment
   + In game model viewer
   + Dev menu / mode button in main menu
   + In game script editor
   + In game file browser
   + Custom mouse cursor
   + 3 new Backgrounds
-  + build in Gameboy emulator
+  + Build in Gameboy emulator
   + teleport / setpos / tp command
   + Rickroll
-  + rebalanced damage and health to be more like Half-life 2
+  + Rebalanced damage and health to be more like Half-life 2
   + 2D Minecraft in Mini Games section 
   + Space Invaders in Mini Games section 
   + Mini Games tab in map select screen
