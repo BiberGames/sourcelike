@@ -2,9 +2,9 @@ This is the News tab!!!
 
 <u><style="Title">Update 0.1.1:(WIP)</style></u>
 Added:
-  + 3 New Splash text
+  + 6 New Splash text
   + Gameboy background instead of green color
-  + Lua api rewrite / rework
+  + Part Lua api rewrite / rework
   + Updated console font (Ubuntu mono) / text alignment
   + In game model viewer
   + Dev menu / mode button in main menu
