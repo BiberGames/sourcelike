@@ -1,6 +1,6 @@
 This is the News tab!!!
 
-<u><style="Title">Update 0.1.1:(WIP)</style></u>
+<u><style="Title">Update 0.1.1:</style></u>
 Added:
   + 6 New Splash text
   + Gameboy background instead of green color
