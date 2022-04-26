@@ -1,5 +1,13 @@
 This is the News tab!!!
 
+<u><style="Title">Update 0.1.2(WIP):</style></u>
+Added:
+
+Fixed:
+  / Background image scaling in main menu
+
+Removed:
+
 <u><style="Title">Update 0.1.1:</style></u>
 Added:
   + 6 New Splash text
