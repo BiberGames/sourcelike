@@ -2,9 +2,15 @@ This is the News tab!!!
 
 <u><style="Title">Update 0.1.2(WIP):</style></u>
 Added:
+  + example lua addon (just a mario clone for now)
+  + lua sprite loading / lua delayed function launcher
+  + addon system (2d)
+  + new intro (https://youtu.be/AlbyBlIxoVc)
+  + lua halt / lua resume / lua load (function name) command 
   + 1 new Background
 
 Fixed:
+  / improved 
   / Background image scaling in main menu
 
 Removed:
