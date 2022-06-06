@@ -10,7 +10,7 @@ Added:
   + 1 new Background
 
 Fixed:
-  / improved 
+  / improved sprite loading performance
   / Background image scaling in main menu
 
 Removed:
