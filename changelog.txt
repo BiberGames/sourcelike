@@ -2,6 +2,7 @@ This is the News tab!!!
 
 <u><style="Title">Update 0.1.2(WIP):</style></u>
 Added:
+  + press any key to skip intro video on start
   + example lua addon (just a bad mario clone for now)
   + lua sprite loading / lua delayed function launcher
   + addon system (2d)
