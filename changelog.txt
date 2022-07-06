@@ -4,7 +4,7 @@ This is the News tab!!!
 Added:
   + portal soundtrack as main menu music
   + press any key to skip intro video on start
-  + example lua addon (just a bad mario clone for now)
+  + example lua addon (a simple 2d platformer)
   + lua sprite loading / lua delayed function launcher
   + addon system (2d)
   + new intro (https://youtu.be/AlbyBlIxoVc)
