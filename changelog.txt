@@ -2,6 +2,7 @@ This is the News tab!!!
 
 <u><style="Title">Update 0.1.2(WIP):</style></u>
 Added:
+  + 3 New Splash text
   + portal soundtrack as main menu music
   + press any key to skip intro video on start
   + example lua addon (a simple 2d platformer)
