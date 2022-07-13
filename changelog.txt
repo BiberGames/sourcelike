@@ -2,8 +2,9 @@ This is the News tab!!!
 
 <u><style="Title">Update 0.1.2(WIP):</style></u>
 Added:
+  + windows xp instllation music (title.wma) as background music in main menu
   + 3 New Splash text
-  + portal soundtrack as main menu music
+  + portal soundtrack as main menu music as background music in main menu
   + press any key to skip intro video on start
   + example lua addon (a simple 2d platformer)
   + lua sprite loading / lua delayed function launcher
