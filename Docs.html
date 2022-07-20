@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+  body
+  {
+      background-color: black;
+      color: lightslategray;
+  }
+  table, th, td 
+  {
+      border: 1px solid lightslategray;
+      text-align: center;
+      padding: 4px;
+  }
+  </style>
+<body>
+===Console==============================================================================================<br />
+&emsp;CLConsole.Log(String Massage)<br />
+&emsp;CLConsole.Clear()<br />
+===Transform============================================================================================<br />
+&emsp;CLTransform.Position(string GameObjectName, float X, float Y, float Z, int Mode)<br />
+&emsp;&emsp;=> Mode 0 = set position<br />
+&emsp;&emsp;=> Mode 1 = add (X,Y,Z) to current position<br />
+&emsp;CLTransform.GetPosition(string GameObjectName)<br />
+&emsp;CLTransform.Rotation(string GameObjectName, float X, float Y, float Z, int Mode)<br />
+&emsp;=> Mode 0 = set rotation<br />
+&emsp;=> Mode 1 = add (X,Y,Z) to current rotation<br />
+&emsp;CLTransform.GetRotation(string GameObjectName)<br />
+&emsp;CLTransform.Scale(string GameObjectName, float X, float Y, float Z, int Mode)<br />
+&emsp;&emsp;=> Mode 0 = set scale<br />
+&emsp;&emsp;=> Mode 1 = add (X,Y,Z) to current scale<br />
+&emsp;CLTransform.GetScale(string GameObjectName)<br />
+&emsp;CLTransform.MoveForward(string GameObjectName, float MoveValue)<br />
+&emsp;CLTransform.MoveSide(string GameObjectName, float MoveValue)<br />
+&emsp;CLTransform.MoveUp(string GameObjectName, float MoveValue)<br />
+&emsp;CLTransform.SetParent(string GameObjectName, string PatentGameObjectName)<br />
+&emsp;CLTransform.LookAt(string GameObjectName, string ToLookAtGameObjectName)<br />
+&emsp;CLTransform.SetAsFirstSibling(string GameObjectName)<br />
+&emsp;CLTransform.SetAsLastSibling(string GameObjectName)<br />
+&emsp;CLTransform.SetSiblingIndex(string GameObjectName, int SiblingIndex)<br />
+&emsp;CLTransform.GetSiblingIndex(string GameObjectName)<br />
+&emsp;CLTransform.SetTag(string GameObjectName, string TagName)<br />
+===Input================================================================================================<br />
+&emsp;CLInput.GetAxis(string AxisName)<br />
+&emsp;&emsp;=> Horizontal / Vertical<br />
+&emsp;CLInput.GetMousePos2DX()<br />
+&emsp;CLInput.GetMousePos2DY()<br />
+===CursorLockMode=======================================================================================<br />
+&emsp;CLCursorLockMode.LockMode(int Mode)<br />
+&emsp;&emsp;=> ????????????<br />
+===Time=================================================================================================<br />
+&emsp;CLTime.GetDeltaTime()<br />
+&emsp;CLTime.GetTime()<br />
+===Camera===============================================================================================<br />
+&emsp;CLCamera.GetMainCamera()<br />
+&emsp;CLCamera.SetFov(string CameraName, float Fov)<br />
+&emsp;CLCamera.SetSize(string CameraName, float Fov)<br />
+&emsp;&emsp;=> Gets the orthographic camera fov<br />
+&emsp;CLCamera.IsOrthographic(string CameraName, bool Mode)<br />
+&emsp;CLCamera.SetCameraClipping(string CameraName, float NearPlane, float FarPlane)<br />
+===GameObjects===========================================================================================<br />
+&emsp;CLGameObject.CreateEmpty(string EmptyName)<br />
+&emsp;CLGameObject.AddComponent(string GameObjectName, string ComponentName)<br />
+&emsp;&emsp;=> All available components:<br />
+&emsp;&emsp;&emsp;=> Mesh.MeshFilter<br />
+&emsp;&emsp;&emsp;=> Mash.MeshRenderer<br />
+&emsp;&emsp;&emsp;=> Physics.Rigidbody<br />
+&emsp;&emsp;&emsp;=> Physics.CharacterController<br />
+&emsp;&emsp;&emsp;=> Physics.BoxCollider<br />
+&emsp;&emsp;&emsp;=> Physics.SphereCollider<br />
+&emsp;&emsp;&emsp;=> Physics.CapsuleCollider<br />
+&emsp;&emsp;&emsp;=> Physics.MeshCollider<br />
+&emsp;&emsp;&emsp;=> Physics.Rigidbody2D<br />
+&emsp;&emsp;&emsp;=> Physics.BoxCollider2D<br />
+&emsp;&emsp;&emsp;=> Physics.CircleCollider2D<br />
+&emsp;&emsp;&emsp;=> Audio.AudioListener<br />
+&emsp;&emsp;&emsp;=> Audio.AudioSource<br />
+&emsp;&emsp;&emsp;=> UI.Text<br />
+&emsp;&emsp;&emsp;=> UI.Image<br />
+&emsp;&emsp;&emsp;=> Renderer.Camera<br />
+&emsp;&emsp;&emsp;=> 2D.Sprite<br />
+&emsp;CLGameObject.SetActive(string GameObjectName, bool State)<br />
+&emsp;CLGameObject.Destroy(string GameObjectName)<br />
+===UI====================================================================================================<br />
+&emsp;CLUI.SetImage(string ImageViewer, string ImagePath)<br />
+&emsp;CLUI.SetImageSize(string ImageViewer, int x, int y)<br />
+&emsp;CLUI.SetSpriteAlpha(string ImageViewer, float AlphaIntensety, float FadeDuration)<br />
+&emsp;CLUI.GetScreenHeight()<br />
+&emsp;CLUI.GetScreenWidth()<br />
+&emsp;CLUI.SetAnchors(string GameObjectName, float x1, float y1, float x2, float y2)<br />
+&emsp;CLUI.CeateText(string GameobjectName, int Order, string Canvas, string Massage, int FontStyle, string Wrapping, string Overflow)<br />
+&emsp;CLUI.SetText(string GameobjectName, string Massage)<br />
+===IO====================================================================================================<br />
+&emsp;CLIO.GetFilesInFolder(string DirectoryPath, string FileType)<br />
+&emsp;CLIO.GetStreamingAssetsPath()<br />
+&emsp;CLIO.LoadFileRaw(string FilePath)<br />
+===Audio=================================================================================================<br />
+&emsp;CLAudio.PlayAudioFile(string AudioSourceName, string AudioFilePath)<br />
+===Randon=shit===========================================================================================<br />
+&emsp;CLMap.CreateSun(string GameObjectName, float R, float G, float B, float Intensety, float ShadowStrength)<br />
+&emsp;CLMap.CreatePointLight(string GameObjectName, float Range, float R, float G, float B, float Intensety)<br />
+&emsp;CLMap.CreateSpotLight(string GameObjectName, float Range, float InnerSpotAngle, float OuterSpotAngle, float R, float G, float B, float Intensety, float ShadowStrength)<br />
+===2D====================================================================================================<br />
+&emsp;CL2D.SetSprite(string SpriteViewer, int SpriteID)<br />
+&emsp;CL2D.SetColliderOffset(string GameObjectName, float X, float Y)<br />
+&emsp;CL2D.SetBoxColliderSize(string GameObjectName, float Width, float Height)<br />
+&emsp;CL2D.SetCapsuleColliderSize(string GameObjectName, float Width, float Height)<br />
+&emsp;CL2D.SetCircleColliderSize(string GameObjectName, float Radius)<br />
+&emsp;CL2D.SetRigidbodyConstrains(string GameObjectName, bool X, bool Y, bool Z)<br />
+&emsp;CL2D.AddForce(string GameObjectName, float ForceX, float ForceY)<br />
+&emsp;CL2D.PlayerGrounded() // WHY?????????<br />
+&emsp;CL2D.LoadSprite(string SpritePath, int SpriteID, float pixelsPerUnit, bool Filtered)<br />
+&emsp;CL2D.SpriteLoaded(int SpriteID)<br />
+===Usefull=stuff=========================================================================================<br />
+&emsp;Utils.SplitString(string StringToSplit, char SplitChar)<br />
+&emsp;Utils.DelayedLauncher(string FuncName, float WaitTime)<br />
+&emsp;&emsp;=> Launches a lua function after a specified amount of time
+</body>
+</html>
