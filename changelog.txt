@@ -15,6 +15,7 @@ Added:
   + 1 new Background
 
 Fixed:
+  / 3D addons are working again
   / improved sprite loading performance
   / Background image scaling in main menu
 
