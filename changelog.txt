@@ -2,6 +2,7 @@ This is the News tab!!!
 
 <u><style="Title">Update 0.1.2(WIP):</style></u>
 Added:
+  + intro movie moved to file
   + a way to see what type an addon is
   + windows xp instllation music (title.wma) as background music in main menu
   + 3 New Splash text
